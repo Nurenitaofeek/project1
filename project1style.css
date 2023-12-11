@@ -1,0 +1,555 @@
+body {
+    background-color: #fff;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form>label {
+    display: flex;
+    display: inline-flex;
+    border: 1px solid #a02279;
+    color: #fff;
+    background-color: #a02279;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    flex-basis: 150px;
+    height: 32px;
+    flex-direction: column;
+    vertical-align: middle;
+    justify-content: center;
+    text-align: center;
+    font: 12px;
+    line-height: 16px;
+    box-shadow: rgba(59, 246, 0.5);
+
+
+}
+
+input {
+    height: 28px;
+    width: 200px;
+    border: 2px solid lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 64px;
+
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.colo {
+    color: #a02279;
+    display: inline;
+}
+
+.colo1 {
+
+    display: block;
+}
+
+li a,
+span a {
+    text-decoration: none;
+    color: #000;
+    font-family: RedRose;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+}
+
+li a:hover {
+    color: rgb(160, 34, 121);
+    text-decoration: underline;
+}
+
+.col1 {
+    margin-left: 12%;
+}
+
+li,
+span a {
+    padding: 20px;
+}
+
+.col2 {
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin-left: 150px;
+
+}
+
+.row1 {
+    margin-left: 20px;
+    margin-top: 3%;
+}
+
+span>a {
+    display: inline-flex;
+    color: #fff;
+    border: 1px solid #a02279;
+    background-color: #a02279;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 10%;
+
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.col3a {
+    flex-basis: 25%;
+
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.grid1 div {
+    text-align: end;
+    margin-top: 115px;
+}
+
+#col1 {
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+#col2 {
+    grid-row: 2;
+    grid-column: 1;
+    margin-top: 0;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.grid2 div {
+    text-align: start;
+    margin-top: 0;
+}
+
+.row2 {
+    font-size: 56px;
+    font-family: Redrose;
+    line-height: 70px;
+    margin-top: 91px;
+    margin-left: 64px;
+    margin-bottom: 10px;
+}
+
+.bss {
+    font-size: 15px;
+    font-family: Redrose;
+    line-height: 24px;
+    color: #000;
+    margin-left: 64px;
+    margin-top: 0;
+}
+
+.nav2 {
+    display: inline-flex;
+    flex-basis: 33%;
+    flex-shrink: 0;
+    flex-grow: 1;
+    background-color: #a02279;
+    color: white;
+    padding: 9px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.img {
+    display: flex;
+    align-items: flex-end;
+    flex-basis: 28%;
+}
+
+#head {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: Redrose;
+    color: #000;
+    margin: 32px 64px 32px 64px;
+    text-align: center;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    width: 25%;
+    margin-left: 64px;
+}
+
+.grid3>div {
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.a {
+    display: block;
+    margin-left: 0px;
+    text-align: start;
+    margin-top: 16px;
+}
+
+.b {
+    float: right;
+
+}
+
+.c {
+    display: block;
+    margin-left: 0px;
+    text-align: start;
+    margin-top: 8px;
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 400;
+    font-family: Redrose;
+
+}
+
+.a span:nth-child(1) {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: cursive;
+}
+
+.a span:nth-child(2) {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: Redrose;
+}
+
+.d {
+    display: block;
+    text-align: start;
+    margin-top: 8px;
+
+}
+
+.d span img {
+    width: 12px;
+    height: 12px;
+    color: #a02279;
+}
+
+.sec {
+    display: flex;
+    flex-direction: row;
+    background-color: #a02279;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+.sec div {
+    flex-basis: 33%;
+    flex-grow: 0;
+    padding-left: 24px;
+    padding-top: 151px;
+    color: white;
+}
+
+.sec span {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.sec h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-family: Redrose;
+
+}
+
+.sec p {
+    font-size: 18px;
+    font-family: Redrose;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+button {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 32px;
+    color: #a02279;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Redrose;
+
+}
+
+
+footer {
+    border: 1px solid #1d1d1d;
+    color: white;
+    background-color: #1d1d1d;
+    margin: 0px;
+
+}
+
+footer li:nth-child(2) {
+    margin-left: 265px;
+
+}
+
+footer li {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-basis: 19%;
+    text-align: start;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Redrose;
+}
+
+.div {
+    margin-left: 20px;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 18.4%;
+    text-align: start;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Redrose;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.child {
+    margin-left: 580px;
+}
+
+.m {
+    margin: 0 0 0 64px;
+    color: #fff;
+}
+
+.m a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    flex-basis: 6%;
+}
+
+footer p {
+    margin: 0 0 24px 64px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.flex-container {
+    display: flex;
+    /* border: 1px solid red;*/
+    flex-direction: row;
+
+}
+
+.flexc {
+    flex-basis: 50%;
+}
+
+.flexm {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.flexa1 {
+    flex-direction: column;
+    /*border: 1px solid red;*/
+    flex-basis: 25%;
+    margin-top: 115px;
+    padding: 10px;
+    padding-right: 5px;
+}
+
+.flexb1 {
+    flex-direction: column;
+    /*border: 1px solid red;*/
+    flex-basis: 25%;
+    padding: 10px;
+    padding-left: 5px;
+}
+
+.nav {
+
+    background-color: #fff;
+    animation-name: iterationanimation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    animation-direction:normal;
+    position: relative;
+    
+
+
+}
+
+/* RESPONSIVE SECTION */
+
+@media only screen and (max-width: 768px) {
+
+    /* Adjust Screen up to a maximum width of 768px */
+    li a,
+    span a {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin: 5px;
+
+    }
+
+    .col2 {
+        margin-left: 5px;
+
+    }
+
+    span>a {
+        height: 15px;
+
+    }
+
+    .grid3 {
+        grid-template-columns: auto;
+        margin-right: 10px;
+    }
+
+    .grid3 div img:not(span img) {
+        width: 550px;
+        height: 350px;
+    }
+
+    #head {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 60px;
+    }
+
+    .sec span img {
+        width: 400px;
+        height: 400px;
+
+    }
+
+    .sec h1 {
+        margin-top: -140px;
+    }
+
+    .child {
+        margin-left: 64px;
+    }
+
+    footer li:nth-child(2) {
+        margin-left: -250px;
+    }
+
+    footer li {
+        margin-top: 80px;
+        flex-basis: 50%;
+    }
+
+    .flex4 {
+        flex-basis: 49.5%;
+    }
+
+    .m a {
+        margin-top: -190px;
+        flex-basis: 15%;
+    }
+
+    .flex2 {
+
+        flex-direction: column;
+    }
+ 
+    .row2 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flexa1 {
+        margin-left: 64px;
+    }
+
+    .colo1 {
+        display: inline;
+
+    } 
+
+    @keyframes iterationanimation {
+        0% {
+            background-color: #fff;
+            position: absolute;
+    
+        }
+
+        50% {
+            background-color: rgba(160, 34, 121, 0.5);
+            position: absolute;
+        }
+
+        
+
+
+    }
+}
