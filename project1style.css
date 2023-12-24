@@ -29,6 +29,8 @@ form>label {
 
 }
 
+
+
 input {
     height: 28px;
     width: 200px;
@@ -168,6 +170,14 @@ span>a {
 }
 
 .bss {
+    font-size: 15px;
+    font-family: Redrose;
+    line-height: 24px;
+    color: #000;
+    margin-left: 64px;
+    margin-top: 0;
+}
+.bss1 {
     font-size: 15px;
     font-family: Redrose;
     line-height: 24px;
@@ -429,14 +439,23 @@ footer p {
     animation-iteration-count: 2;
     animation-direction:normal;
     position: relative;
-    
-
-
+}
+.menu-bar{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: none;
+}
+.menu{
+    width: 35px;
+    height: 5px;
+    background-color: #a02279;
+    margin: 6px 0px;
 }
 
-/* RESPONSIVE SECTION */
+/* RESPONSIVE SECTION for mobile screen sizes */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:480px) {
 
     /* Adjust Screen up to a maximum width of 768px */
     li a,
@@ -445,7 +464,50 @@ footer p {
         line-height: 1.25rem;
         margin: 5px;
 
+
     }
+    .row2 {
+
+        margin-top: -25px;
+        position: absolute;
+        top: 11%;
+        left: -5%;
+    }
+   .flexa1 img, .flexb1 img{
+    width: 150px;
+    height: 200px;
+
+   }
+
+    
+    .menu-bar{
+        
+        display: block;
+
+    }
+    .row1 {
+        margin-left: 80px;
+        margin-top: 4%;
+        
+    }
+    .bss {
+        font-size: 18px;
+        font-family: cursive;
+        line-height: 25px;
+        color:rgba(0, 0, 0, 0.8);
+        margin-left: 48px;
+        margin-top: 12%;
+        margin-right: 10%;
+    }
+    .bss1{
+        margin-left: 48px;
+        font-size: 18px;
+        font-family: cursive;
+        line-height: 25px;
+        color:rgba(0, 0, 0, 0.8);
+        margin-right: 10%;
+    }
+   
 
     .col2 {
         margin-left: 5px;
@@ -528,7 +590,12 @@ footer p {
     }
 
     .flexa1 {
-        margin-left: 64px;
+        margin-left: 38px;
+        padding-top: 15px;
+        
+    }
+    .flexb1 {
+        padding-top: 40px;
     }
 
     .colo1 {
@@ -536,6 +603,43 @@ footer p {
 
     } 
 
+    input{
+        margin-left: 48px;
+    }
+    form>label {
+        margin-right: 20%;
+    }
+    
+  .flex1 .nav2 img{
+    width: 120px;
+    height: 20px;
+  }
+  #head {
+    font-size: 30px;
+    line-height: 40px;
+}
+.grid3 img:nth-child(1):not(span img){
+    width: 270px;
+}
+        .sec span img{
+            width: 250px;
+            margin-left: 48px;
+           
+        }
+        .sec div h1,button{
+            margin-left: 48px;
+        }
+        .sec div p{
+            margin-left: 48px;
+            margin-right: 48px;
+        }
+       
+        
+            
+        }
+        
+
+    
     @keyframes iterationanimation {
         0% {
             background-color: #fff;
@@ -547,9 +651,5 @@ footer p {
             background-color: rgba(160, 34, 121, 0.5);
             position: absolute;
         }
-
-        
-
-
     }
-}
+    
